@@ -72,16 +72,6 @@ a:hover {
   transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-/* .gelatine:hover {
-  animation: gelatine 0.5s;
-} */
-/* @keyframes gelatine {
-  from, to { transform: scale(1, 1); }
-  25% { transform: scale(0.9, 1.1); }
-  50% { transform: scale(1.1, 0.9); }
-  75% { transform: scale(0.95, 1.05); }
-} */
-
 .section-title {
   margin-bottom: 4.5rem;
   font-size: 4rem;
@@ -516,9 +506,6 @@ section .row span {
   z-index: -1;
   line-height: 1.2;
   animation: hidden 1000ms linear forwards;
-  /* background: url("/src/assets/[your-image].png");
-    background-position: center;
-    background-size: cover; */
 }
 @media (max-width: 56.25em) {
   #hero {
